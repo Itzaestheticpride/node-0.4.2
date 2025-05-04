@@ -20,7 +20,7 @@ now extract the tar file of the node
 
 
 
-tar -xf rl-swarm-0.4.2.tar
+tar -xvzf v0.4.2.tar.gz
 
 
 
