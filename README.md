@@ -85,6 +85,13 @@ gradient_checkpointing: false
 
 save_steps: 20
 
+to exit 
+ctrl+x 
+then y 
+then enter
+
+
+
 
 ( if there are errrors of no input please change the max steps to 5 ) 
 
