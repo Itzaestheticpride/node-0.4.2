@@ -52,6 +52,11 @@ cd rl-swarm-0.4.2
 run the node 
 
 
+
+python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+
+
+
 #####
 
 
@@ -93,7 +98,7 @@ save_steps: 20
 
 
 
-python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+
 
 
 
