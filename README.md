@@ -6,7 +6,7 @@ update your node here follow the readme file
 
 
 
-wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.2.tar.gz
+wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.3.tar.gz
 ######
 
 now extract the tar file of the node 
@@ -20,7 +20,7 @@ now extract the tar file of the node
 
 
 
-tar -xvzf v0.4.2.tar.gz
+tar -xvzf v0.4.3.tar.gz
 
 
 
