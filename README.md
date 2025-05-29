@@ -39,7 +39,7 @@ then into the dir
 
 
 
-cd rl-swarm-0.4.2
+cd rl-swarm-0.4.3
 
 
 
@@ -79,6 +79,8 @@ tf32: false
 
 
 gradient_checkpointing: false
+per device train batch : 1 
+
 
 
 
