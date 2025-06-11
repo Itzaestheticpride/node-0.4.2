@@ -19,3 +19,56 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update && sudo apt install -y yarn
 ```
+2. Fix for no participation/wins or node running errors:
+
+2.1 DELETE OLD FILES
+```bash
+sudo rm -rf rl-swarm
+sudo rm -f rl-swarm-0.4.2
+sudo rm -rf rl-swarm-0.4.3
+sudo rm -rf rl-swarm-0.4.4
+```
+
+2.2 DOWNLOAD THE FILES
+```bash
+wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.4.tar.gz
+```
+2.3 EXTRACT THE FILES
+```bash
+tar -xvzf v0.4.4.tar.gz
+```
+2.4 GO TO FOLDER 
+```bash
+cd rl-swarm-0.4.4
+```
+2.5 EDIT CONFIG FILE (for CPU only & Google VPS)
+```bash
+nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
+```
+Scroll using arrow keys and make the following changes:
+	•	torch_dtype: float32
+	•	gradient_checkpointing: False
+	•	per_device_batch_size: 1
+
+To save and exit nano:
+Press CTRL+X → then Y → then Enter
+
+
+
+2.6 RUN THE NODE
+```bash
+python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+```
+📬 Need help?
+Message on Telegram: @rahuljaat2502
+
+
+
+
+
+
+
+
+
+
+
