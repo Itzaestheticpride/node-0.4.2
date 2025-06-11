@@ -45,10 +45,14 @@ cd rl-swarm-0.4.4
 ```bash
 nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
 ```
-Scroll using arrow keys and make the following changes:
-	•	torch_dtype: float32
-	•	gradient_checkpointing: False
-	•	per_device_batch_size: 1
+Scroll using arrow keys and make the following changes
+:
+	
+ •	torch_dtype: float32
+	
+ •	gradient_checkpointing: False
+	
+ •	per_device_batch_size: 1
 
 To save and exit nano:
 Press CTRL+X → then Y → then Enter
