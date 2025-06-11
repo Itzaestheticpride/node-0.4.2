@@ -8,7 +8,7 @@ sudo -i
 
 IF you are running on a fresh VPS, follow 1.1 and 1.2:
 
-##1.1 DOWNLOAD DEPENDENCIES
+## 1.1 DOWNLOAD DEPENDENCIES
 ```bash
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
