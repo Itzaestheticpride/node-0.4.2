@@ -53,9 +53,27 @@ Scroll using arrow keys and make the following changes:
 To save and exit nano:
 Press CTRL+X → then Y → then Enter
 
+2.6 CREATE A SCREEN 
+```bash
+screen -S swarm
+```
+IF YOU WANT TO EXIT PRESS CTRL + A +D 
+IF WANT TO SEE THE PROCESS OF THE NODE/LOGS
+```bash
+sudo -i
+screen -r swarm
+```
 
+IF YOU ALREADY HAVE YOUR PEM FILE , USE TERMIUS STFP TO SHARE IT TO THE VPS /UBUNTU/
+2.7 
+TO SHARE THE FILE TO THE NODE DIRECTORY 
+(RUN THE BELOW COMMAND  ONLY AFTER YOU HAVE TRANSFERED YOUR PEM FILE TO THE VPS )
 
-2.6 RUN THE NODE
+```bash
+sudo cp swarm.pem /root/rl-swarm-0.4.3/
+```
+
+2.7 RUN THE NODE
 ```bash
 python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 ```
