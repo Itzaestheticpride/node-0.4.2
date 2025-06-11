@@ -73,7 +73,7 @@ TO SHARE THE FILE TO THE NODE DIRECTORY
 
 REPLACE USERNAME WITH YOUR VPS USERNAME
 ```bash
-sudo cp /home/(username)swarm.pem /root/rl-swarm-0.4.4/
+sudo cp /home/(username)/swarm.pem /root/rl-swarm-0.4.4/
 
 ```
 
