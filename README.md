@@ -1,7 +1,8 @@
 node-0.4.4 gensyn 
 1. Be ROOT user 
 
-```sudo -i```
+```bash
+sudo -i```
 
 IF you are running on fresh vps follow 1.1 and 1.2 
 1.1 DOWNLOAD DEPENDENCIES 
