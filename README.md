@@ -70,7 +70,7 @@ TO SHARE THE FILE TO THE NODE DIRECTORY
 (RUN THE BELOW COMMAND  ONLY AFTER YOU HAVE TRANSFERED YOUR PEM FILE TO THE VPS )
 
 ```bash
-sudo cp swarm.pem /root/rl-swarm-0.4.3/
+sudo cp swarm.pem /root/rl-swarm-0.4.4/
 ```
 
 2.7 RUN THE NODE
