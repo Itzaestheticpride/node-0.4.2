@@ -1,4 +1,4 @@
-# node-0.4.4 Gensyn Setup Guide
+# node-0.4.3 Gensyn Setup Guide
 
 ## 1. Be ROOT user
 
@@ -34,15 +34,15 @@ sudo rm -rf rl-swarm-0.4.4
 
 ## 2.2 DOWNLOAD THE FILES
 ```bash
-wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.4.tar.gz
+wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.3.tar.gz
 ```
 ## 2.3 EXTRACT THE FILES
 ```bash
-tar -xvzf v0.4.4.tar.gz
+tar -xvzf v0.4.3.tar.gz
 ```
 ## 2.4 GO TO FOLDER 
 ```bash
-cd rl-swarm-0.4.4
+cd rl-swarm-0.4.3
 ```
 ## 2.5 EDIT CONFIG FILE (for CPU only & Google VPS)
 ```bash
@@ -80,7 +80,7 @@ TO SHARE THE FILE TO THE NODE DIRECTORY
 
 # REPLACE USERNAME WITH YOUR VPS USERNAME
 ```bash
-sudo cp /home/(username)/swarm.pem /root/rl-swarm-0.4.4/
+sudo cp /home/(username)/swarm.pem /root/rl-swarm-0.4.3/
 
 ```
 
