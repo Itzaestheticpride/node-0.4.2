@@ -44,21 +44,7 @@ tar -xvzf v0.5.1.tar.gz
 ```bash
 cd rl-swarm-0.5.1
 ```
-## 2.5 EDIT CONFIG FILE (for CPU only & Google VPS)
-```bash
-nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
-```
-Scroll using arrow keys and make the following changes
-:
-	
- •	torch_dtype: float32
-	
- •	gradient_checkpointing: False
-	
- •	per_device_batch_size: 1
 
-To save and exit nano:
-Press CTRL+X → then Y → then Enter
 
 ## 2.6 CREATE A SCREEN 
 ```bash
@@ -80,7 +66,7 @@ TO SHARE THE FILE TO THE NODE DIRECTORY
 
 # REPLACE USERNAME WITH YOUR VPS USERNAME
 ```bash
-sudo cp /home/(username)/swarm.pem /root/rl-swarm-0.4.3/
+sudo cp /home/(username)/swarm.pem /root/rl-swarm-0.5.1/
 
 ```
 
