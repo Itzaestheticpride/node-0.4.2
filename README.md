@@ -34,15 +34,15 @@ sudo rm -rf rl-swarm-0.4.4
 
 ## 2.2 DOWNLOAD THE FILES
 ```bash
-wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.4.3.tar.gz
+wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.5.1.tar.gz
 ```
 ## 2.3 EXTRACT THE FILES
 ```bash
-tar -xvzf v0.4.3.tar.gz
+tar -xvzf v0.5.1.tar.gz
 ```
 ## 2.4 GO TO FOLDER 
 ```bash
-cd rl-swarm-0.4.3
+cd rl-swarm-0.5.1
 ```
 ## 2.5 EDIT CONFIG FILE (for CPU only & Google VPS)
 ```bash
